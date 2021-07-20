@@ -11,7 +11,7 @@ a {
     text-decoration: none;
 }
 
-.middle-seсtion {
+.middle-section {
     width: 80%;
     margin: 0 auto;
 }
@@ -36,7 +36,7 @@ a {
 
 .text-logo {
     color: #7B68EE;
-    font:  bold "Fira Sans";
+    font: bold "Fira Sans";
     font-size: min(5vw, 3em);
     margin-left: 2%;
 }
@@ -45,9 +45,10 @@ a {
     display: grid;
     grid-template-columns: 2fr 2fr 1fr 1fr;
     align-items: center;
-    grid-template-areas: 
-    "logo search contact callback";
+    grid-template-areas:
+        "logo search contact callback";
 }
+
 .logo,
 .text-logo {
     vertical-align: middle;
@@ -98,12 +99,12 @@ a {
 }
 
 .showcase {
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .case-row {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     margin-bottom: 10px;
 
@@ -113,7 +114,7 @@ a {
     border: 1px solid #7B68EE;
     border-radius: 5px;
     padding: 10px;
-	text-align: center;
+    text-align: center;
     position: relative;
 }
 
@@ -134,49 +135,78 @@ a {
     color: white;
 }
 
-@media (max-width: 992px){
-	bottom-line{
-    grid-template-areas: 
-    "logo" "search" "contact callback";
-}
-}
-.logo-container{
-	grid-area: logo;
-	text-align: center;
-}
-.search-container{
-	grid-area: search;
+.logo-container {
+    grid-area: logo;
+    text-align: center;
 }
 
-.contact-container{
-	grid-area: contact;
+.search-container {
+    grid-area: search;
 }
 
-.call-back-container{
-	grid-area: callback;
+.contact-container {
+    grid-area: contact;
 }
 
-.bottom-line{
+.call-back-container {
+    grid-area: callback;
+}
+
+footer>div {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
     margin-top: 50px;
+    align-items: center;
+    text-align: center;
+
 }
 
-.social-networks{
-    width: 40px;
+.social-networks {
+    width: 15%;
     border: 2px solid #7B68EE;
     border-radius: 30px;
-    margin-left: 15px;
-    padding: 3px;
-    
 }
 
-.social-networks-line{
-    margin-left: 150px;
-}
-.address{
-font-family: arial;
-color: #000;
-margin-left: 150px;
+.social-networks-line {
+    /* margin-left: 150px; */
 }
 
+.address {
+    font-family: arial;
+    color: #000;
+    /* margin-left: 150px; */
+}
+
+/* 
+xs
+<576px	sm
+≥576px	md
+≥768px	lg
+≥992px	xl
+≥1200px	xxl
+≥1400px */
+
+
+
+@media (max-width: 1200px) {
+    .case-row {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 992px) {
+    bottom-line {
+        grid-template-areas:
+            "logo""search""contact callback";
+    }
+
+    .case-row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .case-row {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

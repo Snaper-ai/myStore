@@ -2,15 +2,15 @@
 <html lang="ru">
 
 <head>
-    <meta charset="UTF-8">
-    <title>MyStore</title>
-    <link rel="stylesheet" href="style/main.css">
-    <link rel="stylesheet" href="style/productPageStyle.css">
-    <link rel="shortcur icon" href="image/logo.ico">
+	<meta charset="UTF-8">
+	<title>MyStore</title>
+	<link rel="stylesheet" href="style/main.css">
+	<link rel="stylesheet" href="style/productPageStyle.css">
+	<link rel="shortcur icon" href="image/logo.ico">
 </head>
 
 <body>
-    <?php
+	<?php
 		include 'header.php';
         include_once 'products.php';
         $isExists = false;
@@ -95,10 +95,10 @@
     ?>
 
 
-    <?php
+	<?php
         include 'footer.php';
 	?>
-    <script src="script/main.js"></script>
+	<script src="script/main.js"></script>
 </body>
 
 </html>

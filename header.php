@@ -10,7 +10,7 @@
     </div>
     <div class="middle-section bottom-line">
         <div class="logo-container">
-            <img src="image/logo.png" alt="0" class="logo">
+            <img src="/image/logo.png" alt="0" class="logo">
             <a href="/" class="text-logo">COMP</a>
         </div>
         <div class="search-container">

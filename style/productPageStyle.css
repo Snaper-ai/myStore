@@ -1,0 +1,214 @@
+a {
+	text-decoration: none;
+}
+
+.product-name {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 5px;
+}
+
+.name {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-left: 20%;
+	margin-top: 20px;
+}
+
+.cod {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 0.8em;
+	margin-top: 25px;
+	border: 1px solid #4682B4;
+	margin-right: 80%;
+	color: white;
+	background-color: #4682B4;
+	padding-top: 4px;
+	padding-left: 3px;
+}
+
+.product {
+	display: grid;
+	grid-template-columns: 1.1fr 0.4fr 0.2fr 0.5fr;
+}
+
+.computer-img>img {
+	width: 70%;
+	margin-left: 20%;
+	margin-top: 20px;
+}
+
+.price-text {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 1em;
+	opacity: 0.5;
+}
+
+.price {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-top: 6px;
+}
+
+.bonus {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 0.8em;
+	opacity: 0.5;
+	margin-top: 6px;
+}
+
+.reviews {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 0.7em;
+	opacity: 0.5;
+	margin-left: 210px;
+	margin-top: 100px;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+.buy {
+	width: 110px;
+	height: 40px;
+	border: none;
+	background: #4682B4;
+	border-radius: 10px;
+	cursor: pointer;
+	color: white;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 1em;
+	margin-top: 10px;
+}
+
+.heart {
+	width: 8%;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.line {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.libra {
+	width: 7%;
+	margin-left: 40px;
+}
+
+.timer {
+	width: 7%;
+	margin-left: 40px;
+}
+
+.payment {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 0.8em;
+	margin-top: 30px;
+}
+
+.payment-text {
+	font-family: arial;
+	font-size: 0.7em;
+}
+
+.delivery {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 0.9em;
+	margin-top: 100px;
+}
+
+.delivery-text {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 0.7em;
+	margin-top: 20px;
+}
+
+.delivery-line {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 1em;
+	opacity: 0.1;
+}
+
+.delivery-price {
+	font-family: arial;
+	font-size: 0.7em;
+	color: #808000;
+}
+
+.location {
+	font-family: arial;
+	font-size: 0.7em;
+	color: #808000;
+	margin-top: 100px;
+}
+
+.time {
+	margin-top: 25px;
+	font-family: arial;
+	font-size: 0.7em;
+	font-weight: bold;
+}
+
+.characteristics-description {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.characteristics {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 1.1em;
+	margin-top: 50px;
+	margin-left: 60%;
+}
+
+.characteristics2 {
+	font-family: arial;
+	font-size: 1em;
+	margin-top: 10px;
+	margin-left: 65%;
+	border: 1px solid #87CEEB;
+	padding-right: 100%;
+	background: #87CEEB;
+}
+
+.characteristics-text {
+	font-family: arial;
+	font-size: 0.8em;
+	margin-top: 10px;
+	margin-left: 68%;
+}
+
+/* characteristics-all{
+    margin-left: 65%;
+    font-size: 0.8em;
+    font-family: arial;
+  } */
+
+.description {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 1.1em;
+	margin-top: 50px;
+	margin-left: 90%;
+}
+
+.description-text {
+	font-family: arial;
+	font-size: 0.8em;
+	margin-top: 10px;
+	margin-left: 98%;
+}

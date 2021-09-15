@@ -12,7 +12,7 @@
 		include 'productsSection.php';
 		include 'footer.php';
 	?>
-	<script src="script/main.js"></script>
+	<script src="script/courusel.js"></script>
 </body>
 
 </html>

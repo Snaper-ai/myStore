@@ -3,12 +3,15 @@ include 'products.php';
 ?>
 <div class="advertising"></div>
 <div class="showcase middle-section">
-    <p class="special-offer">Специальное предложение</p>
-    <div class="case-row">
-        <?php        
+	<div class="courusel">
+		<img class="toFront" src="image/1.jpg" alt="">
+		<img class="toBack" src="image/2.jpg" alt="">
+		<img class="toBack" src="image/3.jpg" alt="">
+	</div>
+	<div class="case-row">
+		<?php        
         foreach ($products as $product){
-            echo'
-            
+            echo'            
                 <div class="card">
                     <img src="' . $product[image] . '" alt="" class="photo-computer">
                     <a href="/productCard.php?id=' . $product[id] . '" class="showcase-name">' . $product[name].'</a>
@@ -18,6 +21,6 @@ include 'products.php';
                 ';
         }    
         ?>
-    </div>
-    <!-- </div> -->
+	</div>
+	<!-- </div> -->
 </div>

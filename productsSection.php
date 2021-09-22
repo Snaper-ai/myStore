@@ -1,12 +1,22 @@
 <?php
 include 'products.php';
+
+$courusel_path = $_SERVER['DOCUMENT_ROOT'] .'/image/carousel/';
+$courusel_images = scandir($courusel_path);
+
 ?>
 <div class="advertising"></div>
 <div class="showcase middle-section">
 	<div class="courusel">
-		<img class="toFront" src="image/1.jpg" alt="">
-		<img class="toBack" src="image/2.jpg" alt="">
-		<img class="toBack" src="image/3.jpg" alt="">
+		<?php
+		foreach ($courusel_images as $image_name){
+			if (end(explode('.',$image_name) ) == 'jpg') {
+				echo '<img class="toFront" src="/image/carousel/'.$image_name.'" alt="">';
+				# code...
+			}
+			};
+		?>
+
 	</div>
 	<div class="case-row">
 		<?php        
